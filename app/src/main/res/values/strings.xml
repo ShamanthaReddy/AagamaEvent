@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Aagama 2k18</string>
-    <string name="welcome_in_splash">WELCOME</string>
+    <string name="welcome_in_splash">AGI presents </string>
     <string name="changing_text_in_splash">Generating the fun..</string>
     <string name="changed_text">Loading the energy..</string>
     <string name="final_text">All Set to Go..!</string>
     <string name="home_screen">HomeScreen</string>
     <string name="nothing"/>
-    <string name="department">CSE Department</string>
+    <string name="department"  >Departments</string>
     <string name="countdown">There are only</string>
     <string name="countdownleft">To start the exciting Event!!!</string>
     <string name="about">

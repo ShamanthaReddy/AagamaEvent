@@ -8,8 +8,6 @@
     tools:context="com.example.vasanth.hambutton.MainActivityForZones">
 
 
-
-
     <ImageView
         android:id="@+id/img"
         android:layout_width="wrap_content"
@@ -21,23 +19,25 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411"
+        app:layout_constraintVertical_bias="0.385"
         app:srcCompat="@drawable/img" />
 
-    <include layout="@layout/app_bar"
-        android:id="@+id/app_bar"/>
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
 
     <Button
         android:id="@+id/b1"
-        android:onClick="techzone"
         android:layout_width="70dp"
         android:layout_height="70dp"
-
         android:layout_marginBottom="8dp"
+
+
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/roundedbutton"
+        android:onClick="techzone"
         android:text="Tech Zone"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,6 +58,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/roundedbutton"
         android:text="Open Zone"
+        android:clickable="true"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,6 +96,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/roundedbutton"
         android:text="Fun Events"
+
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,16 +120,15 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Grab your opputunity!!"
+        android:text="Grab the opputunity!!"
         android:textColor="#050505"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759" />
+        app:layout_constraintVertical_bias="0.733" />
 
     <TextView
         android:id="@+id/textView4"
@@ -143,10 +144,10 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.829" />
+        app:layout_constraintVertical_bias="0.801" />
 
     <TextView
         android:id="@+id/textView5"
@@ -165,6 +166,6 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.900" />
+        app:layout_constraintVertical_bias="0.881" />
 
 </android.support.constraint.ConstraintLayout>

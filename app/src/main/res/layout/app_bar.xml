@@ -4,7 +4,7 @@
     android:layout_height="?attr/actionBarSize"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:theme="@style/CustomTheme"
-    android:background="@color/colorPrimary">
+    android:background="#000000">
 
     <ImageView
         android:layout_width="?attr/actionBarSize"
@@ -20,7 +20,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="25dp"
         android:text="@string/app_name"
-        android:textColor="@color/colorAagama"
+        android:textColor="#e2dfdf"
         android:textStyle="bold"
         android:textSize="25dp"
         android:fontFamily="cursive"
