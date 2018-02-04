@@ -87,7 +87,7 @@ public class HamButtonActivity extends AppCompatActivity{
             TextOutsideCircleButton.Builder builder = new TextOutsideCircleButton.Builder();
             builder.normalImageRes(images.get(i));
             builder.normalText(textInfo.get(i));
-            builder.normalColor(R.color.colorPrimary);
+            builder.normalColor(Color.WHITE);
             builder.pieceColor(Color.WHITE);
             builder.listener(new OnBMClickListener() {
 

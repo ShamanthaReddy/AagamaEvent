@@ -8,17 +8,31 @@
     tools:context="com.example.vasanth.hambutton.HamButtonActivity">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:text="AAGAMA 2K18"
+        android:textColor="#cf9c9c"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/relativeLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="28dp"
-        android:text="@string/countdown"
+        android:layout_marginBottom="27dp"
+        android:text="The clock is ticking.."
         android:fontFamily="cursive"
         android:textColor="#c2bfbf"
         android:textSize="35dp"
         android:textStyle="bold" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -177,21 +191,10 @@
         android:text="@string/countdownleft"
         android:textColor="#eaadad"
         android:fontFamily="cursive"
-        android:textSize="30dp"
+        android:textSize="22sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView1"
-        android:layout_centerHorizontal="true"
 
-        android:layout_marginBottom="31dp"
-        android:text="Aagama 2k18"
-        android:textColor="#cf9c9c"
-        android:textSize="50dp"
-        android:textStyle="italic|bold" />
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
